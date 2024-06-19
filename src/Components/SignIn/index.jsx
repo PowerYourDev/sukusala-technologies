@@ -16,9 +16,13 @@ const SignIn = () => {
     <div className="flex justify-center items-center  flex-col h-screen gap-1 w-full">
       <h1 className="font-semibold text-lg">SIGN IN</h1>
 
-      <div className="w-[40%] flex flex-col">
+      <div className="md:w-[70%] lg:w-[40%]   flex flex-col w-[90%]">
         {LoginConfig?.loginPage?.components.map((component, index) =>
-          renderComponentBasedOntype(component, handleSubmit)
+      (
+        <React.Fragment key={index}>
+          {renderComponentBasedOntype(component, handleSubmit)}
+        </React.Fragment>
+      )
         )}
       </div>
     </div>
