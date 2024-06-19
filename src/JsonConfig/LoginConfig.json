@@ -1,0 +1,36 @@
+{
+  "loginPage": {
+    "components": [
+      {
+        "type": "label",
+        "text": "User Name",
+        "for": "username",
+        "className": "font-bold"
+      },
+      {
+        "type": "textField",
+        "id": "username",
+        "placeholder": "Enter your username",
+        "className": "w-full p-2 mb-4 border-2 border-black rounded-md "
+      },
+      {
+        "type": "label",
+        "text": "Password",
+        "for": "password",
+        "className": "block mb-2 font-bold"
+      },
+      {
+        "type": "passwordField",
+        "id": "password",
+        "placeholder": "Enter your password",
+        "className": "w-full p-2 mb-4 border-2 border-black rounded-md "
+      },
+      {
+        "type": "button",
+        "id": "submit",
+        "text": "Submit",
+        "className": "w-full px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700"
+      }
+    ]
+  }
+}
