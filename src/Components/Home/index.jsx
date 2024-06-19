@@ -2,10 +2,10 @@ import React from "react";
 
 import HomeConfig from "../../JsonConfig/HomeConfig.json";
 import { renderComponentBasedOntype } from "../../Utilis";
-import { githubURL } from "../../constant";
+import { NetflixAppAnotherreactApp } from "../../constant";
 
 const Home = () => {
-  const handleSubmit = () => [(window.location.href = githubURL)];
+  const handleSubmit = () => [(window.location.href = NetflixAppAnotherreactApp)];
 
   return (
     <div className="bg-[green] w-full text-white flex justify-center items-center flex-col h-screen">

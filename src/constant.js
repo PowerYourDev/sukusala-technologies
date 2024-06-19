@@ -1,1 +1,1 @@
-export const githubURL="https://github.com/PowerYourDev/sukusala-technologies"
+export const NetflixAppAnotherreactApp="https://saiteja-netflix.vercel.app/"
