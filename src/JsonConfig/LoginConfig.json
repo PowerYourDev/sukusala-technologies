@@ -5,13 +5,18 @@
         "type": "label",
         "text": "User Name",
         "for": "username",
-        "className": "font-bold"
+        "className": "block mb-2 font-bold"
       },
       {
         "type": "textField",
         "id": "username",
         "placeholder": "Enter your username",
-        "className": "w-full p-2 mb-4 border-2 border-black rounded-md "
+        "className": "w-full p-2 mb-1 border-2 border-black rounded-md",
+        "validation": {
+          "required": true,
+          "pattern": "^[a-zA-Z0-9]{3,}$",
+          "message": "Username: 3+ chars, letters & numbers only."
+        }
       },
       {
         "type": "label",
@@ -23,13 +28,18 @@
         "type": "passwordField",
         "id": "password",
         "placeholder": "Enter your password",
-        "className": "w-full p-2 mb-4 border-2 border-black rounded-md "
+        "className": "w-full p-2 mb-1 border-2 border-black rounded-md",
+        "validation": {
+          "required": true,
+          "pattern": "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$",
+          "message": "Password: 8+ chars, include letters & numbers."
+        }
       },
       {
         "type": "button",
         "id": "submit",
         "text": "Submit",
-        "className": "w-full px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700"
+        "className": "w-full px-4 py-2 mt-4 bg-blue-500 text-white rounded-md hover:bg-blue-700"
       }
     ]
   }
