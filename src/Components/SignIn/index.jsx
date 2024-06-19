@@ -16,7 +16,7 @@ const SignIn = () => {
     <div className="flex justify-center items-center  flex-col h-screen gap-1 w-full">
       <h1 className="font-semibold text-lg">SIGN IN</h1>
 
-      <div className="w-[50%] flex flex-col">
+      <div className="w-[40%] flex flex-col">
         {LoginConfig?.loginPage?.components.map((component, index) =>
           renderComponentBasedOntype(component, handleSubmit)
         )}

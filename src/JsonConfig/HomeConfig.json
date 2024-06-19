@@ -5,7 +5,7 @@
         "type": "button",
         "id": "submit",
         "text": "Other react app",
-        "className": "w-6 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700"
+        "className": "w-full px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700"
       }
     ]
   }
